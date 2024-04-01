@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Arrays;
 
-class Solution {
+class TwoSum {
   public static int[] twoSum(int[] nums, int target) {
       Map<Integer,Integer> keyCombos = new HashMap<>();
       for (int i = 0; i < nums.length; i++) {
